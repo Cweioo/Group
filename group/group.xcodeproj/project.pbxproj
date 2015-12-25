@@ -14,6 +14,7 @@
 		C0D070B41C2DC83700D30D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D070B31C2DC83700D30D20 /* Assets.xcassets */; };
 		C0D070B71C2DC83700D30D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D070B51C2DC83700D30D20 /* LaunchScreen.storyboard */; };
 		C0D070C01C2DC84100D30D20 /* One.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D070BF1C2DC84100D30D20 /* One.m */; };
+		C0D070C31C2DCE1400D30D20 /* Two.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D070C21C2DCE1400D30D20 /* Two.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		C0D070B81C2DC83700D30D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0D070BE1C2DC84100D30D20 /* One.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = One.h; sourceTree = "<group>"; };
 		C0D070BF1C2DC84100D30D20 /* One.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = One.m; sourceTree = "<group>"; };
+		C0D070C11C2DCE1400D30D20 /* Two.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Two.h; sourceTree = "<group>"; };
+		C0D070C21C2DCE1400D30D20 /* Two.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Two.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				C0D070AB1C2DC83700D30D20 /* AppDelegate.m */,
 				C0D070AD1C2DC83700D30D20 /* ViewController.h */,
 				C0D070AE1C2DC83700D30D20 /* ViewController.m */,
+				C0D070C11C2DCE1400D30D20 /* Two.h */,
+				C0D070C21C2DCE1400D30D20 /* Two.m */,
 				C0D070BE1C2DC84100D30D20 /* One.h */,
 				C0D070BF1C2DC84100D30D20 /* One.m */,
 				C0D070B01C2DC83700D30D20 /* Main.storyboard */,
@@ -158,6 +163,7 @@
 				C0D070AF1C2DC83700D30D20 /* ViewController.m in Sources */,
 				C0D070AC1C2DC83700D30D20 /* AppDelegate.m in Sources */,
 				C0D070C01C2DC84100D30D20 /* One.m in Sources */,
+				C0D070C31C2DCE1400D30D20 /* Two.m in Sources */,
 				C0D070A91C2DC83700D30D20 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +311,7 @@
 				C0D070BD1C2DC83700D30D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
